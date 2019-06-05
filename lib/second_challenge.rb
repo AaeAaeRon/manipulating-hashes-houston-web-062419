@@ -1,4 +1,5 @@
 def second_challenge
+  answer = []
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -6,7 +7,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+  answer << groceries.values
 
   
 
